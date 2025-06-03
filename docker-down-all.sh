@@ -7,4 +7,4 @@ docker compose \
   --env-file .env \
   down -v --remove-orphans
 
-docker system prune -a --volumes -f
+# docker system prune -a --volumes -f
