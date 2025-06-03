@@ -12,6 +12,11 @@ services:
       database__connection__user: ${GHOST_DB_USER}
       database__connection__password: ${GHOST_DB_PASSWORD}
       database__connection__database: ${GHOST_DB_NAME}
+      mail__transport: ${MAIL_TRANSPORT}
+      mail__from: ${MAIL_FROM}
+      mail__options__service: ${MAIL_OPTIONS_SERVICE}
+      mail__options__auth__user: ${MAIL_OPTIONS_AUTH_USER}
+      mail__options__auth__pass: ${MAIL_OPTIONS_AUTH_PASS}
     volumes:
       - ghost_data:/var/lib/ghost/content
 
