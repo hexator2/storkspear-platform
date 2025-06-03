@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# JetBrains
+.idea/
+*.iml
+
+# Node/NPM (n8n 등)
+node_modules/
+
+# OS
+.DS_Store
